@@ -5,7 +5,7 @@ using Microsoft.QualityTools.Testing.Fakes;
 using ReportGenerationLib.Fakes;
 using System.Fakes;
 
-namespace IndegoUnitTestProj
+namespace ReportGenerationLib.UnitTests
 {
     [TestClass]
     public class IndegoTests

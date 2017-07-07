@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IndegoUnitTestProj
+namespace ReportGenerationLib.UnitTests
 {
     [TestClass]
     public class CityLookupTests

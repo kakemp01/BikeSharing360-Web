@@ -88,7 +88,8 @@
             "displayName": "AppSettings"
           },
           "properties": {
-            "appInsightsKey": "[reference(concat('Microsoft.Insights/components/', variables('appInsightsName'))).InstrumentationKey]"          }
+            "insights:InstrumentationKey": "[reference(concat('Microsoft.Insights/components/', variables('appInsightsName'))).InstrumentationKey]"
+          }
         },
         {
           "apiVersion": "2015-08-01",

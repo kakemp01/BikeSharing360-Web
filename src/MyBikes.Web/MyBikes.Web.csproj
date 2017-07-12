@@ -677,6 +677,7 @@
     </Content>
     <Content Include="Views\Home\ClientsView.cshtml" />
     <None Include="Properties\PublishProfiles\ReadyBikeShare - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\sw-bikesharing-web - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -74,6 +74,7 @@ namespace MyBikes.DomainLogic.Tests
         }
 
         [TestMethod]
+	[TestCategory("Unit")]
         public void GettingWorkoutIntensityForEasyWorkouts()
         {
             CreateTrainerWith3Workouts();
@@ -82,6 +83,7 @@ namespace MyBikes.DomainLogic.Tests
         }
 
         [TestMethod]
+	[TestCategory("Unit")]
         public void GettingWorkoutIntensityForHardWorkouts()
         {
             CreateTrainerWith3Workouts();
@@ -90,6 +92,7 @@ namespace MyBikes.DomainLogic.Tests
         }
 
         [TestMethod]
+	[TestCategory("Unit")]
         public void GettingWorkoutIntensityForMediumWorkouts()
         {
             CreateTrainerWith3Workouts();
